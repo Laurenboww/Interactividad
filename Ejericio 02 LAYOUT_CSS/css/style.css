@@ -1,0 +1,302 @@
+	html, body {
+		height: 100%;
+	}
+	
+	body {
+		/*margin: 0px;
+		padding: 0px;
+		background: #031f4f;
+		font-family: 'Quicksand', sans-serif;
+		font-size: 12pt;
+		font-weight: 400;
+		color: #000000;*/ 
+	}
+	
+	
+	h1, h2, h3 {
+		margin: 0;
+		padding: 0;
+		color: #404040;
+	}
+	
+	p, ol, ul {
+		margin-top: 0;
+	}
+	
+	ol, ul {
+		padding: 0;
+		list-style: none;
+	}
+	
+	p {
+		line-height: 180%;
+		text-align: center;
+	}
+	
+	a {
+		color: #004571;
+	}
+	
+	a:hover {
+		text-decoration: none;
+	}
+	
+
+	.container {
+		/*margin: 0px auto;
+		width: 1200px;*/   /* este codigo centraliza a todos los contenedores con esta clase en el centro con el tamaño 1200px de ancho */
+	}
+	
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+	.button {
+		background-color: #ADD8E6;
+
+	}
+	
+		
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title {
+
+
+	}
+	
+	.title h2 {
+		text-align: center;
+
+	}
+	
+
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header-wrapper {
+		background: url(../images/background.jpg) no-repeat; 
+	  -webkit-background-size: cover;
+ 	 -moz-background-size: cover;
+ 	 -o-background-size: cover;
+  	background-size: cover;
+		height: 300px;
+		width: 1150px;
+		margin: auto;
+		border: 5px solid white;
+
+		/* Aqui es donde va tu imagen de fondo */
+	}
+
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+	
+	#logo h1 {
+		background-color: 	#ADD8E6;
+		width: 400px;
+		margin-left: 100px;
+		margin-top: 50px;
+		margin-bottom: 30px;
+		font-size: 40px; 
+		color: 	black;
+
+	}
+	
+	#logo a {
+		margin-left: 50px;
+
+	}
+	
+	#logo span {
+
+	}
+
+	#logo span a {
+
+	}
+	
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	
+	#menu ul {
+		background-color: #ADD8E6;
+		width: 700px;
+		margin-left: 100px;
+		color: black;
+
+	}
+	
+	#menu li {
+		display: inline;
+	}
+	
+	#menu li a, #menu li span {
+
+	}
+	
+
+/*********************************************************************************/
+/* Page                                                                          */
+/*********************************************************************************/
+
+	#page-wrapper {
+		width: 1150px;
+		border: 5px solid white;
+		margin: auto;
+
+
+	}
+
+/*********************************************************************************/
+/* Wrapper                                                                       */
+/*********************************************************************************/
+
+	#wrapper {
+		width: 1150px;
+		height: 750px;
+		margin: auto;
+		border: 5px solid white;
+		margin: auto;
+
+	}
+
+
+/*********************************************************************************/
+/* Three Columns                                                                 */
+/*********************************************************************************/
+
+	#three-column {
+		width: 1000px;
+		height: 230px;
+		padding: 10px;
+		text-align: center;
+		margin: auto;
+		border: 10px solid white;
+		margin-top: 20px;
+
+
+	}
+	
+	#three-column h2 {
+
+	}
+		
+	#three-column #tbox1, #three-column #tbox2, #three-column #tbox3 {
+
+		width:260px;
+		float: left;
+		border: 5px solid white;
+		margin: 20px;
+
+	}
+	
+	#three-column .title { 
+		font-size: 27px;
+		margin-bottom: 10px;
+
+	}
+	
+	#three-column .title h2 {
+
+	}
+
+
+
+/*********************************************************************************/
+/* Portfolio                                                                     */
+/*********************************************************************************/
+
+
+
+#portfolio img {
+	width: 100%;
+}
+
+	#portfolio .box {
+		width:200px;
+		border: 5px solid white;
+		margin: 20px;
+		text-align: center;
+
+
+	}
+	
+	#portfolio h3 {
+		text-align: center;
+
+	}
+
+	#portfolio .title {
+		text-align: center;
+
+	}
+
+ 	#portfolio .title h2 {
+ 		text-align: center;
+
+	}
+
+	.column1, .column2, .column3, .column4 {
+		float: left;
+		border: 5px solid white;
+		margin: 10px;
+	}
+	
+	.column1, .column2, .column3 {
+
+	}
+	
+	.column4 {
+
+	}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright {
+		border: 5px solid white;
+		width: 1150px;
+		margin: auto;
+
+	}
+	
+	#copyright p {
+		text-align: center;
+	}
+
+
+/*********************************************************************************/
+/* Social Icon Styles                                                            */
+/*********************************************************************************/
+	ul.contact {
+		width: 100px;
+		margin: auto;
+		}
+	
+	ul.contact li {
+	text-align: center;
+	display: inline-block;
+	}
+	
+	ul.contact li span { 
+	
+
+	}
+	
+	ul.contact li a {
+
+	}
+	
+	ul.contact li a:before {
+
+	}	
