@@ -1,0 +1,131 @@
+body { 
+background-image: url("background.jpg");
+
+ }
+#businessname { /* for name of business/logo */
+
+	width: 400px;
+	height: 500px;
+	padding: 0;
+	margin-right: 0;
+	float: left;
+	margin-top: 140px;
+	position: fixed;
+}
+
+#businessname h1 {
+	font-size: 50px;
+}
+#businessname p {
+	margin-top: 100px;
+	font-size: 15px;
+	margin-bottom: 7px;
+
+}
+
+#businessname h2 {
+	margin-top: 80px;
+	font-size: 18px;
+}
+
+#businessname h3 {
+
+	font-size: 18px;
+}
+
+
+.containerone {
+  	position: relative;
+  	background-color:black;
+	padding:10px;
+	width: 240px;
+	height: 400px;
+	float: right;
+	margin:30px;
+
+}
+
+.image {
+  display: block;
+  width: 80%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  background-color: black;
+  opacity: 0.5; /* for transparency over image */
+  filter: alpha(opacity=100); /* for transparency over image */
+  overflow: hidden;
+  width: 240px;
+  height:0;
+  transition: .5s ease; /* speed of drop down hover */
+}
+
+
+.containerone:hover .overlay {
+  bottom: 0;
+  height: 100%;
+  width: 240px;
+}
+
+.containerone p {
+	color: white;
+}
+
+.text { /* text for hover */
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.text p {
+	margin-top: 4px;
+}
+
+#wrapper { /* everything inside of this */
+	width:1100px;
+	height: 2000px;
+	margin: auto;
+	margin-right: 70px;
+	margin-top: 50px;
+
+
+}
+
+#wrappermain {
+	width: 100%; <!--/to make it some-what responsive-->
+	height:6000px;
+}
+
+
+.container { /* for model's profile pics */
+	width: 640px;
+	float: right;
+
+}
+
+.container div img {
+	width: 100%;
+	margin-bottom:20px;
+}
+
+
+.containerone p {
+	text-align:center;
+	font-size: 15px;	
+}
+
+footer {
+	text-align: center;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
