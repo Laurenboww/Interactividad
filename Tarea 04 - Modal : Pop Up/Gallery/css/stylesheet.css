@@ -1,0 +1,325 @@
+.modal-dialog {
+      width: 100%;
+      height: 100%;
+      padding: 0;
+      margin:0;
+}
+.modal-content {    
+      height: 100%;
+      border-radius: 0;
+      color:white;
+      overflow:auto;
+}
+ .close
+    {
+      color:white ! important;
+      opacity:1.0;
+    } 
+ #first-child
+    {
+      top:0;
+      left:0;
+      background-color: #dd4636;
+    }
+    #second-child
+    {
+      top:0;
+      left:50%;
+      background-color: #e3675a;
+      color:black;
+    }
+    #third-child
+    {
+      top:50%;
+      left:0;
+      background-color: #e3675a;
+      color:black;
+    }
+    #fourth-child
+    {
+      top:50%;
+      left:50%;
+      background-color: #dd4636;
+      color:white;
+    }
+    .big-box
+    {
+      position: absolute;
+      width: 50%;
+      height: 50%;
+      color:white;
+    }
+    .big-box h2
+    {
+      text-align: center;
+      margin-top: 20%;
+      padding: 20px;
+      width: 100%;
+      font-size: 1.8em;
+      letter-spacing: 2px;
+      font-weight: 700;
+      text-transform: uppercase;
+    cursor:pointer;
+    }
+  
+    @media screen and (max-width: 46.5em) 
+    {
+      .big-box h2
+      {
+        font-size:16px;
+        padding-left:0px;
+        
+      }
+    }
+
+    @media screen and (max-width: 20.5em) 
+    {
+      .big-box h2
+      {
+        font-size:12px;
+        padding-left:0px;
+        margin-top:30%;
+        }
+    }
+    .modal-dialog {
+      width: 100%;
+      height: 100%;
+      padding: 0;
+      margin:0;
+    }
+    .modal-content {
+      
+      height: 100%;
+      border-radius: 0;
+      color:white;
+      overflow:auto;
+    }
+    .modal-title
+    {
+      font-size: 3em;
+      text-align:center;
+      font-weight: 300;
+      margin: 0 0 20px 0;
+    }
+    .modal-content-one
+    {
+      background-color:#e3675a;
+    }
+    .modal-content-two
+    {
+      background-color:#dd4636;
+    }
+    .modal-content-three
+    {
+      background-color:#dd4636;
+    }
+    .modal-content-four
+    {
+      background-color:#e3675a;
+    }
+
+/*-------------------------------*/
+/*      Code snippet             */
+/*-------------------------------*/
+
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quote {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*-------------------------------*/
+/*    Carousel Fade Transition   */
+/*-------------------------------*/
+
+#fade-quote-carousel.carousel {
+  padding-bottom: 60px;
+}
+#fade-quote-carousel.carousel .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-inner .active {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-indicators {
+  bottom: 10px;
+}
+#fade-quote-carousel.carousel .carousel-indicators > li {
+  background-color: #e84a64;
+  border: none;
+}
+#fade-quote-carousel blockquote {
+    text-align: center;
+    border: none;
+}
+#fade-quote-carousel .profile-circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 100px;
+}
+
+.wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 120px;
+  margin-left: -89px;
+  text-align: center;
+  font-size: 12px;
+}
+
+a {
+  -webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  -moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  -ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  -o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  display: block;
+  margin: 20px auto;
+  max-width: 180px;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 20px 30px;
+}
+
+a.button {
+  color: white;
+  box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
+}
+
+a.button:hover {
+  color: rgba(255, 255, 255, 0.85);
+  box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
+}
+
+a.button2 {
+  color: white;
+  box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
+}
+
+a.button2:hover {
+  color: rgba(255, 255, 255, 0.85);
+  box-shadow: rgba(30, 22, 54, 0.7) 0 80px 0px 2px inset;
+}
+
+
+.team{
+    padding:75px 0;
+}
+h6.description{
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: white;
+  border-bottom: 1px solid rgba(0, 0, 0,0.1);
+  padding-bottom: 5px;
+}
+.profile{
+  margin-bottom: 60px;
+  margin-top: 20px;
+  margin-left:60px;
+}
+.profile h1{
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+  margin:10px 0 0 0;
+}
+.profile h2{
+  font-size: 14px;
+  font-weight: lighter;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.profile p {
+  text-align: center;
+}
+.profile .img-box{
+  opacity: 1;
+  display: block;
+  position: relative;
+
+}
+.profile .img-box:after{
+  content:"";
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+
+}
+.img-box ul{
+  position: absolute;
+  z-index: 2;
+  bottom: 100px;
+  text-align: center;
+  padding-left: 0px;
+  height: 0px;
+  margin:0px;
+  opacity: 0;
+
+}
+.profile .img-box:after, .img-box ul, .img-box ul li{
+  -webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+
+}
+.img-box ul i{
+  font-size: 20px;
+  letter-spacing: 10px;
+
+}
+.img-box ul li{
+  width: 30px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid white;
+    margin: 2px;
+    padding: 5px;
+  display: inline-block;
+}
+.img-box a{
+  color:#fff;
+}
+.img-box:hover:after{
+  opacity: 1;
+}
+.img-box:hover ul{
+  opacity: 1;
+}
+.img-box ul a{
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.img-box a:hover li{
+  border-color: #fff;
+  color: #dd4636;
+}
+a{
+    color:#88C425;
+}
+a:hover{
+    text-decoration:none;
+    color:#519548;
+}
+i.red{
+    color:#BC0213;
+}
