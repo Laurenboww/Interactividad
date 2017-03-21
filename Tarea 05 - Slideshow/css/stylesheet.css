@@ -15,24 +15,6 @@ body {
   margin: auto;
 }
 
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
 /*********************************************************************************/
 /* END: Automatic Slideshow;                                                                     */
 /*********************************************************************************/
@@ -40,8 +22,6 @@ body {
 /*********************************************************************************/
 /* BEGIN: Bootstrap Simple Header                                                                   */
 /*********************************************************************************/
-
-
 
 .mySlides {
   display:none;
@@ -58,9 +38,13 @@ body {
 /* END: 4 columns under slideshow                                                                   */
 /*********************************************************************************/
 
+/*********************************************************************************/
+/* BEGIN: Contact Form                                                                 */
+/*********************************************************************************/
+
 section#contact {
     background-color: #222222;
- font-family: 'Ropa Sans', sans-serif;
+    font-family: 'Ropa Sans', sans-serif;
     background-image: url('http://artdnaswitchbd.com/componants/images/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -152,6 +136,9 @@ section#contact .text-danger {
    
 }
 
+/*********************************************************************************/
+/* END: Contact Form                                                                   */
+/*********************************************************************************/
 
 /*********************************************************************************/
 /* BEGIN: 4 columns under slideshow                                                                   */
@@ -197,10 +184,10 @@ section#contact .text-danger {
     filter: alpha(opacity=50); /* For IE8 and earlier */
   }
 
-
 /*********************************************************************************/
 /* END:4 columns under slideshow                                                                   */
 /*********************************************************************************/
+
 /*********************************************************************************/
 /* BEGIN:Footer                                                                  */
 /*********************************************************************************/

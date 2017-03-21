@@ -1,0 +1,138 @@
+body {
+	width: 100%;
+	background-color: white;
+	color: black;
+}
+
+.main {
+	font-family: 'Anton', sans-serif;
+	font-size:7em;
+	text-align: left;
+	position: absolute;
+	top: 30%;
+	margin-left: 14%;
+}
+
+
+h2 {
+	font-family: 'Lato', sans-serif;
+	left: 13%;
+	top: 40%;
+}
+
+
+
+.next {
+	font-family: 'Lato', sans-serif !important;
+	margin-top: 500px;	
+	color: white;
+	background-color: #000;
+	margin-left: 45%;
+	padding: 12px;
+	display: block;
+	border: none;
+
+}
+
+.tord {
+	font-family: 'Lato', sans-serif;
+	font-size: 6em;
+	text-align: center;
+	position: fixed;
+	top: 40%;
+	transform: translate(0,-50%);
+	font-weight: 700;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.one {
+	font-family: 'Lato', sans-serif;
+	position: absolute;
+	top: 63%;
+	left: 32%;
+	margin-left: 11%;
+	padding: 1%;
+	background-color: black;
+	display: block;
+}
+
+.two {
+	font-family: 'Lato', sans-serif;
+	position: absolute;
+	top: 63%;
+	left: 32%;
+	margin-left: 19%;
+	padding: 1%;
+	background-color: black;
+	display: block;
+}
+
+
+
+
+.again {
+	margin-left: 10.5%;
+	border: 2px solid white;3
+	display: block;
+
+}
+
+a {
+	margin-left: 10.5%;
+	color: white;
+	text-decoration: none;
+	font-weight: 900;
+	border: 2px solid white;
+	display: block;
+	position: absolute;
+	top: 62%;
+}
+
+button:hover {
+	opacity: 0.6;
+}
+
+a:hover {
+	opacity: 0.6;
+	color: white;
+	text-decoration: none;
+}
+
+a:active {
+	color: white;
+	text-decoration: none;
+}
+
+
+@media screen and (max-width: 1230px) {
+	.eightball {
+		font-size: 6vw;
+	}
+
+@media screen and (max-width: 900px) {
+	.eightball {
+		font-size: 4em;
+	}
+
+@media screen and (max-width: 570px) {
+	.landingh3 {
+		top: 52%;
+	}	
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+	.main {
+		margin: auto;
+	}
+
+	a {
+		top: 70%;
+		padding: 2%;
+	}
+
+
+}
