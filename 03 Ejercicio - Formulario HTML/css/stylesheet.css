@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+body {
+	margin-left: 60px;
+	height: 100%;
+	width: 1200px;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 14px;
+}
+
+.words {
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin-left: 9px;
+}
+
+form {
+ 	float: left;
+ 	width: 50%;
+ 	margin-bottom: 30px;
+    }
+
+.gif {
+	float: right;
+	margin-right: 60px;
+}
+
+.top {
+	width:100%;
+}
+
+label {
+	padding: 10px;
+	margin-top: 10px;
+}
+input {
+	padding: 5px;
+	width: 100%;
+	margin-top: 5px;
+	margin-left: 3px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+    background-color: #F8FFCB;
+}
+
+select {
+    width:100%;
+    margin-top:15px;
+    margin-bottom: 15px;
+    margin-left: 9px;
+    padding: 16px 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: #F8FFCB;
+
+}
+
+textarea {
+	margin-top: 20px;
+	width: 100%;
+	margin-left: 9px;
+	background-color:#F8FFCB;
+}
+
+button {
+	margin-left: 8px;
+}
+
+
+#myform label.error {
+			  color: red;
+			  font-size: 11px;
+			  font-family: Helvetica, sans-serif;
+			  text-transform: lowercase;
+			  position: relative;
+			}
+
+
+
