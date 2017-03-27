@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+
+body {
+	margin-left: 60px;
+	height: 100%;
+	width: 1200px;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 14px;
+	background-image: url("../image/flowfest1.jpg");
+}
+
+
+/*PAGE 2*/
+.allbutform {
+	float: left;
+	margin-top:20px;
+  background-image: url("../image/12.png");
+}
+
+
+h1 { 
+color: #ff1901;
+margin-left: 10px;
+font-size: 16px;
+margin-top: 10px;
+ }
+
+.exes {
+	margin-left: 10px;
+	margin-top: 40px;
+}
+
+#myform i {
+	margin-top: 19px;
+}
+
+.socialm {
+	margin-top: 40px;
+	margin-left: 10px;
+}
+
+p {
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+
+
+.info {
+  margin-right: 38px;
+	margin-top: 30px;
+	background-color: #fff;
+	width: 512px;
+	height: 430px;
+	margin-bottom: 27px;
+}
+
+.location {
+	margin-top: 25px;
+	font-size: 10px;
+
+}
+form {
+ 	float: right;
+ 	width: 40%;
+ 	margin-top: 33px;
+ 	margin-bottom: 30px;
+ 	margin-right: 80px;
+    }
+
+.top {
+	margin-top: 30px;
+	width:100%;
+	margin-left: 45px;
+}
+
+label {
+	padding: 10px;
+	margin-top: 10px;
+}
+input {
+	padding: 5px;
+	width: 100%;
+	margin-top: 5px;
+	margin-left: 3px;
+	color:#fff;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    background-color: #000;
+}
+
+a {
+	color:#ff1901;
+}
+
+select {
+    width:100%;
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left: 9px;
+    padding: 16px 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-family: 'Roboto Mono', monospace;
+    background-color: gray;
+
+}
+
+textarea {
+	margin-top: 5px;
+	width: 100%;
+	height: 50px;
+	margin-left: 9px;
+	background-color:#000;
+	color: #fff;
+}
+
+button {
+  float: right;
+
+}
+
+
+#myform label.error {
+			  color: red;
+			  font-size: 12px;
+			  font-family: 'Roboto Mono', monospace;
+			  text-transform: lowercase;
+			  position: relative;
+			}
+
+
+/*LANDING PAGE*/
+
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: 100%;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url('../video/flowfest.mp4') no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+    background-color: #fffaec;
+}
+.stopfade { 
+   opacity: .5;
+}
+
+#vid { 
+  background-image: url('../image/flowfest1.png');
+  font-family: 'Roboto Mono', monospace;
+  width: 43%;
+  height: 725px;
+  margin: 0 auto;
+}
+
+#vid p {
+  margin-left: 65px;
+ text-align: center;
+  size: 8px;
+ position: absolute;
+  margin-top: 368px;
+  font-size: 20px
+}
+
+
+#vid a {
+  font-size: 21px;
+  margin-top: 155px;
+  margin-left: 122px;
+}
+
+#vid button:hover { 
+   background: rgba(0,0,0,0.5);
+}
+
+audio {
+  display:none;
+}
+
+
+
+
+a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  background:rgba(0,0,0,0.5);
+  padding: .5rem;
+  transition: .6s background; 
+}
+a:hover{
+  color: red;
+  background:rgba(0,0,0,0.9);
+}
+@media screen and (max-width: 500px) { 
+  div{width:70%;} 
+}
+@media screen and (max-device-width: 800px) {
+  html { background: #000 no-repeat center center fixed; }
+  #bgvid { display: none; }
+}
+

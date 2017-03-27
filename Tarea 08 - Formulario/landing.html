@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>FlowFestival</title>
+	<link rel="shortcut icon" href="favicon-times.ico" type="image/x-icon">
+	<link rel="stylesheet" href="reset.css">
+ 	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+ 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+ </head>
+
+ <body>
+ <audio controls autoplay>
+  <source src="audio/form.mp3" type="audio/mpeg">
+ </audio>
+
+ <video poster="" id="bgvid" playsinline autoplay muted loop>
+<source src="video/flowfest.mp4" type="video/mp4">
+</video>
+<div id="vid">
+<p> #GOWITHTHEFLOW17 
+<br>
+	<i class="fa fa-times" aria-hidden="true"></i> 
+<br>
+ENTER TO WIN
+<br> VIP PASSES TO FLOW FESTIVAL 2017!</p>
+<p><a href="index.html">MORE INFO</a></p>
+</div>
+
+<script>
+var vid = document.getElementById("bgvid");
+
+if (window.matchMedia('(prefers-reduced-motion)').matches) {
+    vid.removeAttribute("autoplay");
+}
+
+function vidFade() {
+  vid.classList.add("stopfade");
+}
+
+vid.addEventListener('ended', function()
+{
+
+vidFade();
+}); 
+
+
+})
+
+
+</script>
+</div>
+ </body>
+ </html>
