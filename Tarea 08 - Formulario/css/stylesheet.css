@@ -7,7 +7,8 @@ body {
 	width: 1200px;
 	font-family: 'Roboto Mono', monospace;
 	font-size: 14px;
-	background-image: url("../image/flowfest1.jpg");
+	background-image: url("../image/flow.jpg");
+  background-repeat: none;
 }
 
 
