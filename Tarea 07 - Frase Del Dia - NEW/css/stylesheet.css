@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+	background-color: #000000;
+	color: #ffffff;
+	margin: auto;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+}
+
+
+.verdadoreto {
+	font-weight: 900;
+	font-size:5em;
+	text-align: center;
+	padding-top: 15%;
+	padding-left: 7%;
+	padding-right: 7%;
+}
+
+/*
+h2 {
+	left: 15%;
+	top: 40%;
+	font-family: 'Merriweather', serif;
+}*/
+
+p {
+	text-align: center;
+	font-size: 2em
+}
+
+
+
+.siguiente {
+	font-weight: 400;
+	position: absolute;
+	top: 73%;
+	left: 32%;
+	margin-left: 15%;
+	padding: 1%;
+	background-color: black;
+	display: block;
+}
+
+.denuevo {
+	font-weight: 400;
+	position: absolute;
+	top: 83%;
+	left: 33%;
+	margin-left: 15%;
+	padding: 1%;
+	background-color: black;
+	display: block;
+}
+
+.jugar {
+	font-weight: 400;
+	position: absolute;
+	top: 63%;
+	left: 32%;
+	margin-left: 15%;
+	padding: 1%;
+	background-color: black;
+	display: block;
+}
+
+
+.again {
+	margin-left: 10.5%;
+	border: 2px solid white;3
+	display: block;
+
+}
+
+
+a {
+	margin-left: 10.5%;
+	color: white;
+	text-decoration: none;
+	font-weight: 900;
+	border: 2px solid white;
+	display: block;
+	position: absolute;
+	top: 62%;
+}
+
+button:hover {
+	opacity: 0.6;
+}
+
+a:hover {
+	opacity: 0.6;
+	color: white;
+	text-decoration: none;
+}
+
+a:active {
+	color: white;
+	text-decoration: none;
+}
+
+
+@media screen and (max-width: 1230px) {
+	.eightball {
+		font-size: 6vw;
+	}
+
+@media screen and (max-width: 900px) {
+	.eightball {
+		font-size: 4em;
+	}
+
+@media screen and (max-width: 570px) {
+	.landingh3 {
+		top: 52%;
+	}	
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+	.main {
+		margin: auto;
+	}
+
+	a {
+		top: 70%;
+		padding: 2%;
+	}
+
+
+}
+
+footer {
+	color: solid white;
+	
+}
