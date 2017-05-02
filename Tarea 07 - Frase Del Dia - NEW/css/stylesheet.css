@@ -1,35 +1,61 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,900');
 
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	width: 100%;
-	background-color: #000000;
-	color: #ffffff;
+	background-color: #0C8899;
 	margin: auto;
 	text-align: center;
-	font-family: 'Merriweather', serif;
 }
 
+.sub {
+	margin-top: 20px;
+	font-size: 20px;
+}
 
 .verdadoreto {
 	font-weight: 900;
-	font-size:5em;
+	font-size: 6em;
 	text-align: center;
 	padding-top: 15%;
 	padding-left: 7%;
 	padding-right: 7%;
 }
 
-/*
+.verdadoreto1 {
+	font-weight: 900;
+	font-size: 9em;
+	text-align: center;
+	padding-top: 15%;
+	padding-left: 7%;
+	padding-right: 7%;
+}
+
+h1 {
+	font-weight: 400;
+	position: absolute;
+	left: 22%;
+	margin-left: 15%;
+	padding: 1%;
+	display: block;
+	color: #F48E8E;;
+	text-shadow: 2px 2px 2px #393838;
+
+}
+
+
 h2 {
+	color: #F48E8E;
 	left: 15%;
 	top: 40%;
-	font-family: 'Merriweather', serif;
-}*/
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 2px #818181;
+}
 
 p {
+	color: #0D474F;
 	text-align: center;
-	font-size: 2em
+	font-size: 2em;
 }
 
 
@@ -41,8 +67,9 @@ p {
 	left: 32%;
 	margin-left: 15%;
 	padding: 1%;
-	background-color: black;
+	background-color: #0D474F;
 	display: block;
+	box-shadow: 2px 2px 2px #393838;
 }
 
 .denuevo {
@@ -52,36 +79,56 @@ p {
 	left: 33%;
 	margin-left: 15%;
 	padding: 1%;
-	background-color: black;
+	background-color: #0D474F;
 	display: block;
+	box-shadow: 2px 2px 2px #393838;
 }
 
-.jugar {
+.verdad {
 	font-weight: 400;
 	position: absolute;
 	top: 63%;
 	left: 32%;
-	margin-left: 15%;
+	margin-left: 11%;
 	padding: 1%;
-	background-color: black;
+	background-color: #0D474F;
 	display: block;
+	box-shadow: 2px 2px 2px #393838;
 }
 
-
-.again {
-	margin-left: 10.5%;
-	border: 2px solid white;3
+.reto {
+	font-weight: 400;
+	position: absolute;
+	top: 63%;
+	left: 32%;
+	margin-left: 19%;
+	padding: 1%;
+	background-color: #0D474F;
 	display: block;
-
+	box-shadow: 2px 2px 2px #393838;
 }
+
+.volver {
+	margin-top: 130px;
+	font-weight: 400;
+	position: absolute;
+	top: 63%;
+	left: 32%;
+	margin-left: 11%;
+	padding: 1%;
+	background-color: #0D474F;
+	display: block;
+	box-shadow: 2px 2px 2px #393838;
+}
+
 
 
 a {
+	margin-top: 30px;
 	margin-left: 10.5%;
 	color: white;
 	text-decoration: none;
 	font-weight: 900;
-	border: 2px solid white;
 	display: block;
 	position: absolute;
 	top: 62%;
@@ -89,6 +136,7 @@ a {
 
 button:hover {
 	opacity: 0.6;
+
 }
 
 a:hover {
